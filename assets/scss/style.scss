@@ -1,1 +1,54 @@
 @import 'vars';
+@import 'fonts';
+
+body {
+	background: #EEE;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+}
+
+header {
+	
+	padding: 15px 75px;
+	overflow: hidden;
+
+	h1, nav {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	h1{
+		float: left;
+		margin: 0;
+	}
+
+	nav ul{
+		list-style: none;
+
+		a{
+			text-decoration: none;
+		}
+	}
+
+	nav ul li {
+		display: inline-block;
+	}
+}
+
+.wrap {
+	clear: both;
+	padding: 15px 75px;
+
+	article {
+		display: inline-block;
+		width: 50%;
+	}
+}
+
+.right {
+	float: right;
+}
+
+h2 {
+	text-align: center;
+}
